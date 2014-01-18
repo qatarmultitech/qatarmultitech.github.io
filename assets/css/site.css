@@ -1,0 +1,103 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body {
+  background-image: url('../img/grid-18px-masked.png');
+  background-repeat: repeat-x;
+}
+
+#wrap > .container {
+  padding: 0px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.nav {
+  margin-top: 30px;
+}
+
+.navbar-brand {
+  padding: 3px 15px;
+}
+
+.navbar-nav > li > a {
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.container .jumbotron {
+  text-align: center;
+  background-color: transparent;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.page-header {
+  padding-bottom: 0px;
+  border-bottom: 1px solid #bbb;
+}
+
+.page-header-marginless {
+  margin: 0px 0 20px;
+}
+
+.page-header-borderless {
+  border-bottom: 0px;
+}
+
+.rule-bottom {
+  border-bottom: 4px solid #999;
+}
+
+.media-object {
+  margin-bottom: 5px;
+}
+
+.qm-section {
+  margin-bottom: 25px;
+}
+
+.qm-section .thumbnail {
+  display: inline-block;
+  margin-bottom: 25px;
+}
