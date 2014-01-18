@@ -63,6 +63,20 @@ code {
   padding-bottom: 5px;
 }
 
+.navbar-toggle {
+  margin-top: 25px;
+  border-color: #428bca;
+}
+
+.navbar-toggle:hover,
+.navbar-toggle:focus {
+  background-color: #dddddd;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #428bca;
+}
+
 .container .jumbotron {
   text-align: center;
   background-color: transparent;
