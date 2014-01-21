@@ -1,0 +1,5 @@
+name: Qatar Multi-Tech
+markdown: redcarpet
+pygments: true
+
+destination: _deploy
